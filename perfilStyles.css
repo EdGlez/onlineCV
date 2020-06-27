@@ -1,0 +1,210 @@
+
+body {
+  background-color: #efefef;
+}
+
+header {
+  font-family: Handlee;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 2px;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  padding: 14px 16px ;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(231, 139, 32);
+  border-radius: 10px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+
+li a:hover {
+  background-color: rgb(189, 77, 14);
+}
+
+h3 {
+  padding-top: 5px;
+  text-align: center;
+}
+
+span{
+  align-items: center;
+  text-align: center;
+  border: 4px dashed rgb(91, 12, 147);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.intro {
+  background-image: url("imagenCliche.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 1400px;
+  text-align: center;
+  padding: inherit;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+div h3 {
+  color: white;
+  font-size: 18pt;
+  text-shadow: 4px 4px 10px rgb(20, 16, 22);
+}
+
+img {
+  border: 3px solid white;
+  border-radius: 50%;
+  align-self: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.item-1 {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(142, 13, 17);
+  border-radius: 50%;
+  margin: 2pt 2pt;
+}
+
+
+section {
+  font-family: Handlee;
+  font-size: 15pt;
+  padding-bottom: 0.1px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+progress {
+  width: 50%;
+  height: 20px;
+  color: #3fb6b2;
+	background: #efefef;
+  display: flow-root;
+  border-radius: 50px;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+	border-radius: 50px;
+	padding: 2px;
+}
+progress::-moz-progress-bar {
+	border-radius: 50px;
+	padding: 2px;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 50px;
+}
+
+
+
+.work p {
+  padding: 15px;
+}
+
+section .work {
+  float: left;
+}
+
+.containerWork {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 0 1em;
+}
+
+.cardWork {
+  text-align: center;
+  align-items: center;
+}
+
+.containerWork img {
+  max-width: 50;
+  max-height: 50;
+  border: 1px solid black;
+  box-shadow: 1px 2px 2px 0px black;
+}
+
+.containerWork p {
+  font-size: 0.9em;
+}
+
+h6 {
+  margin: 0.9px;
+  font-weight: lighter;
+}
+
+.credits {
+  font-size: 10pt;
+}
+.formularioContacto {
+  text-align: center;
+}
+
+input {
+  background-color: #efefef;
+  border-radius: 10px;
+}
+
+textarea {
+  background-color: #efefef;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.enviar {
+  align-self: center;
+  width: 20%;
+  height: 2.5em;
+}
+
+.enviar:hover {
+  background-color: rgb(52, 53, 235);
+  color: white;
+}
+
+.enviar:active {
+  background-color: green;
+  color: black;
+}
+
+section .container {
+  align-content: center;
+  
+}
+
+.container img {
+  border-radius: 0%;
+  padding: 0 1em 0 1em;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10pt;
+  color: gray;
+}

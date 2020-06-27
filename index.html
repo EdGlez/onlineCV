@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="perfilStyles.css">
+    <script src="perfilFun.js"></script>
+    <title>My own page</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>My online CV</h1>
+      <nav>
+        <ul>
+          <li><a href="#AboutMe">About me</a></li>
+          <li><a href="#ContactMe">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="intro">
+      <h3>Hello, my name is Saúl, and <strong>I love coding</strong></h3>
+      <img src="Pal_CV.jpg" id="profileImage" onclick='resi()' alt="This is me" width="200" height="200">
+      
+    </div>
+
+    <div class="container">
+      <div class="item-1"></div>
+      <div class="item-1"></div>
+      <div class="item-1"></div>
+      <div class="item-1"></div>
+      <div class="item-1"></div>
+      <div class="item-1"></div>
+    </div>
+
+    <section>
+        <h3><span><a name="AboutMe">About Me</a></span></h3>
+        <p>I'm currently at my last semesters of Informatics engineering, I'm
+          passionate about what I do and enjoy investing my time on learning about
+          new technologies, programming languages and development methodologies.
+          Even that I don’t have working experience related to my studies
+          I’m willing to grow my skills and develop new ones while taking part
+          in exciting projects. I can learn and adapt easily.</p>
+          <cite>-Declare variables, not war</cite>
+    </section>
+
+    <section>
+      <h3><span>My Skills</span></h3>
+
+      <label for="html5">HTML5</label>
+      <progress id="html5" value="60" max="100"> 60% </progress>
+      <label for="css">CSS</label>
+      <progress id="css" value="50" max="100"> 50% </progress>
+      <label for="javascript">Javascript</label>
+      <progress id="javascript" value="50" max="100"> 50% </progress>
+      <label for="ccplusplus">C/C++</label>
+      <progress id="ccplusplus" value="80" max="100"> 80% </progress>
+      <label for="Java">Java</label>
+      <progress id="Java" value="70" max="100"> 70% </progress>
+      <label for="python">Python</label>
+      <progress id="python" value="60" max="100"> 60% </progress>
+      <label for="php">PHP</label>
+      <progress id="php" value="50" max="100"> 50% </progress>
+      <label for="linuxTerminal">Linux</label>
+      <progress id="linuxTerminal" value="70" max="100"> 70% </progress>
+      <label for="sql">SQL</label>
+      <progress id="sql" value="80" max="100"> 80% </progress>
+
+    </section>
+
+    <section>
+      <h3><span>My work experience</span></h3>
+      <div class="work">
+        <p>In both of my working experiences I developed capabilities to work as a team and under 
+          pressure, also managed to grow my communication skills and customer service.</p>
+      </div>
+          <div class="containerWork">
+            <div class="cardWork">
+              <h5>Waiter at Sushi Balavy</h5>
+              <h6>November 2018 - February 2019</h6>
+              <img src="waiter.svg" alt="waiter" width="50" height="50">
+              <p>Customer service</p>
+            </div>
+            <div class="cardWork">
+              <h5>Staff at Cinemex</h5>
+              <h6>June 2016 - September 2016</h6>
+              <img src="staff.png" alt="staff" width="50" height="50">
+              <p>Customer service</p>
+            </div>
+        
+      </div>
+
+      <div class="credits">Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </section>
+
+
+    <section id="ContactMe">
+      <h3><span><a name="ContactMe" id="ContactMe">Contact Me</a></span></h3>
+      <form class="formularioContacto" action="" method="post">
+        <label for="name">Name: </label>
+        <input id="name" type="text" name="name" placeholder="First Name" required><br>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" value="" placeholder="example@mail.com" required><br>
+        <label for="message">Message: </label>
+        <textarea name="message" rows="4" placeholder="Message" required></textarea><br>
+        <input  class="enviar" type="submit" name="submit" value="Submit">
+      </form>
+
+    </section>
+
+
+    <section>
+      <h3><span>Follow Me</span></h3>
+      <div class="container">
+        <a href="https://mx.linkedin.com/"><img src="linkedin.svg" alt="LinkedIn" 
+          width="50" height="50"> </a>
+        <a href="http://github.com/"><img src="github.svg" alt="GitHub" 
+          width="50" height="50"> </a>
+      </div>
+    </section>
+
+
+
+    <footer class="copyright">
+      <p>&copy; 2020 My own page. Created by Saúl Eduardo Delgado González. All rights reserved.</p>
+      <div class="followMeSection">
+
+      </div>
+    </footer>
+  </body>
+</html>
